@@ -1,0 +1,8 @@
+footer {
+  display: flex;
+  justify-content: center;
+  -ms-align-items: center;
+  align-items: center;
+  border-top: 1px dashed #4c566a;
+  height: 10vh;
+}

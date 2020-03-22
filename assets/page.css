@@ -2,7 +2,7 @@ body {
   background: #2e3440;
   color: #eee;
   margin: 0px;
-  padding-top: 10pt;
+  padding-top: 10px;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -10,7 +10,7 @@ main a, main a:visited {
   color: #5e81ac;
 }
 
-body > header, body > main {
+body header, body main, body footer {
   width: 80vw;
   max-width: 1500px;
   margin-left: auto;

@@ -12,6 +12,9 @@ description: >-
   It's me
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
+social_links:
+  github: https://github.com/kaine119
+
 collections:
   - projects
 
