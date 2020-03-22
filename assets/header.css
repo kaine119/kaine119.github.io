@@ -1,0 +1,35 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  -ms-align-items: center;
+  align-items: center;
+  font-family: monospace;
+}
+
+@media screen and (max-width: 500px) {
+  header {
+    flex-direction: column;
+  }
+}
+
+#header__links > a {
+  font-size: 14pt;
+  background-color: #3b4252;
+  color: #eee;
+  padding: 5px;
+  text-decoration: none;
+}
+
+#header__links > a:hover {
+  background-color: #434c5e;
+}
+
+#header__links > .header__link--selected {
+  background-color: #8fbcbb;
+  color: #122;
+}
+
+#header__links > .header__link--selected:hover {
+  background-color: #8fbcbb;
+  color: #122;
+}

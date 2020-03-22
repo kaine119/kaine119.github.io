@@ -1,6 +1,14 @@
 <h1>Mui Kai En</h1>
 <nav id="header__links">
-  <a href="">Home</a>
-  <a href="">Projects</a>
-  <a href="">Blog</a>
+  {% assign sorted_pages = site.pages | sort: "nav_index" %}
+  {% for node in sorted_pages %}
+    
+    {% if node.name == "404.html" %}
+      {% continue %}
+    {% elsif page.name == node.name %}
+      <a class="header__link--selected" href="{{ node.url }}">{{ node.title }}</a>
+    {% else %}
+      <a href="{{ node.url }}">{{ node.title }}</a>
+    {% endif %}
+  {% endfor %}
 </nav>
