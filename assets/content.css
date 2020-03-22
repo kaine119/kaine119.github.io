@@ -1,0 +1,16 @@
+main {
+  min-height: calc(90vh - 20px - 10vh);
+  margin-top: 0px;
+  padding-top: 10px;
+}
+
+main h1 {
+  font-size: 35pt;
+  font-weight: normal;
+  border-bottom: 1px dashed #4c566a;
+  padding-bottom: 5px;
+  margin-top: 0px;
+}
+main p {
+  font-size: 15pt;
+}

@@ -12,7 +12,8 @@ description: >-
   It's me
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
-# Build settings
+collections:
+  - projects
 
 # Exclude from processing.
 # The following items will not be processed, by default.

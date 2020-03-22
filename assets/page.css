@@ -3,6 +3,7 @@ body {
   color: #eee;
   margin: 0px;
   padding-top: 10pt;
+  font-family: "Open Sans", sans-serif;
 }
 
 main a, main a:visited {
@@ -11,6 +12,7 @@ main a, main a:visited {
 
 body > header, body > main {
   width: 80vw;
+  max-width: 1500px;
   margin-left: auto;
   margin-right: auto;
 }

@@ -5,7 +5,8 @@
     
     {% if node.name == "404.html" %}
       {% continue %}
-    {% elsif page.name == node.name %}
+    {% elsif page.name == node.name or
+			 (page.collection != nil and page.collection == node.index_for) %}
       <a class="header__link--selected" href="{{ node.url }}">{{ node.title }}</a>
     {% else %}
       <a href="{{ node.url }}">{{ node.title }}</a>

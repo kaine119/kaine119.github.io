@@ -2,6 +2,13 @@
 layout: default
 title: Blog
 nav_index: 2
+index_for: posts
 ---
 
-<p>test</p>
+<h1>Blog posts</h1>
+
+<ul>
+  {% for post in site.posts %}
+  <li><a href="{{ post.url }}">{{ post.title }}</a>, posted on {{ post.date }}</li>
+  {% endfor %}
+</ul>
