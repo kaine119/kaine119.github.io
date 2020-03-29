@@ -2,11 +2,16 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="{{ site.baseurl }}/assets/fonts.css">
-  <link rel="stylesheet" href="{{ site.baseurl }}/assets/page.css">
-  <link rel="stylesheet" href="{{ site.baseurl }}/assets/header.css">
-  <link rel="stylesheet" href="{{ site.baseurl }}/assets/content.css">
-  <link rel="stylesheet" href="{{ site.baseurl }}/assets/footer.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/fonts.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/page.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/header.css">
+  {% for stylesheet in layout.stylesheets %}
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/{{ stylesheet }}">
+  {% endfor %}
+  {% for stylesheet in page.stylesheets %}
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/{{ stylesheet }}">
+  {% endfor %}
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/footer.css">
   <title>{{ site.title }}</title>
 </head>
 

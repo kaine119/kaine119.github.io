@@ -6,6 +6,12 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+main {
+  min-height: calc(90vh - 20px - 10vh);
+  margin-top: 0px;
+  padding-top: 10px;
+}
+
 main a, main a:visited {
   color: #5e81ac;
 }

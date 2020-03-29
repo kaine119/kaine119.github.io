@@ -1,9 +1,3 @@
-main {
-  min-height: calc(90vh - 20px - 10vh);
-  margin-top: 0px;
-  padding-top: 10px;
-}
-
 main h1 {
   font-size: 35pt;
   font-weight: normal;
