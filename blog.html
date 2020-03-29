@@ -3,21 +3,23 @@ layout: default
 title: Blog
 nav_index: 2
 index_for: posts
+stylesheets:
+  - blog.css
 ---
 
 <h1>Blog posts</h1>
 
 <ul>
-	{% assign months_of_posts = site.posts | group_by_exp: "post", "post.date | date: '%B %Y'" %}
+  {% assign months_of_posts = site.posts | group_by_exp: "post", "post.date | date: '%B %Y'" %}
   {% for month in months_of_posts %}
-	<li>
-		<h3>{{ month.name }}</h3>
-		<ul>
-			{% for post in month.items %} 
-			<li>
-				<a href="{{ post.url }}">{{ post.title }}</a>, posted on {{ post.date | date: '%-d %B'}}</li>
-			{% endfor %}
-		</ul>
-	</li>
+  <li>
+    <h3>{{ month.name }}</h3>
+    <ul>
+      {% for post in month.items %} 
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>, posted on {{ post.date | date: '%-d %B'}}</li>
+      {% endfor %}
+    </ul>
+  </li>
   {% endfor %}
 </ul>
