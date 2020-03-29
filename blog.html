@@ -9,6 +9,6 @@ index_for: posts
 
 <ul>
   {% for post in site.posts %}
-  <li><a href="{{ post.url }}">{{ post.title }}</a>, posted on {{ post.date }}</li>
+  <li><a href="{{ post.url }}">{{ post.title }}</a>, posted on {{ post.date | date: "%-d %B %Y" }}</li>
   {% endfor %}
 </ul>
