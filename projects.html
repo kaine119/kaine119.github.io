@@ -1,0 +1,30 @@
+---
+layout: default
+title: Projects
+nav_index: 1
+index_for: projects
+stylesheets:
+  - projects.css
+---
+
+<h1>Projects</h1>
+
+<div class="projects">
+  {% for project in site.projects %}
+  <div class="project-container">
+    <div class="project">
+      <img src="/assets/images/projects/{{ project.image }}"/>
+      <div class="project__info">
+        <ul>
+          {% for i in project.technologies %}<li>{{ i }}</li>{% endfor %}
+        </ul>
+        <h2>{{ project.title }}</h2>
+        <a href="{{ project.url }}">Read more</a><br>
+        {% if project.link != nil %}
+          <a href="{{ project.link }}">Link</a>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
