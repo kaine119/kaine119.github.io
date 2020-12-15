@@ -16,6 +16,14 @@ header > h1 {
 
 @media screen and (max-width: 550px) {
   header {
+    margin-bottom: 20px;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  #header__links {
+    display: flex;
     flex-direction: column;
   }
 }
