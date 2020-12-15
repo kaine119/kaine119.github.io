@@ -15,20 +15,20 @@ li {
 	list-style: none;
 }
 
-.month__name {
+main .month__name {
 	font-size: 20pt;
 }
 
-.post {
+main .post {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 	margin-bottom: 2.5em;
 }
 
-.post__date {
-	width: 60pt;
-	height: 60pt;
+main .post__date {
+	width: 50pt;
+	height: 50pt;
 	border-radius: 50%;
 	background-color: #d8dee5;
 	color: #2e3440;
@@ -40,7 +40,12 @@ li {
 	flex-shrink: 0;
 }
 
+main .post__date-day {
+	font-size: 20pt;
+  line-height: 15pt;
+}
 
-.post__date-day {
-		font-size: 20pt;
+main a.post__title {
+  font-size: 20pt;
+  color: #eee;
 }
