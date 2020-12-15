@@ -14,6 +14,7 @@ main {
 
 main a, main a:visited {
   color: #5e81ac;
+  text-underline-position: under;
 }
 
 body header, body main, body footer {
