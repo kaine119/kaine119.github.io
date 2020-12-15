@@ -5,6 +5,8 @@ nav_index: 0
 index_for: null
 ---
 
+![](/assets/images/profile.png)
+
 # Hello!
 
 I'm Kai En, an aspiring software developer. I live in Singapore.
