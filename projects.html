@@ -10,7 +10,8 @@ stylesheets:
 <h1>Projects</h1>
 
 <div class="projects">
-  {% for project in site.projects %}
+  {% assign sorted = site.projects | sort: 'year' | reverse %}
+  {% for project in sorted %}
   <div class="project-container">
     <div class="project">
       <img src="/assets/images/projects/{{ project.image }}"/>

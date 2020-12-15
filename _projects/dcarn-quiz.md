@@ -6,6 +6,7 @@ technologies:
   - TravisCI
 image: dcarn-quiz.png
 link: https://github.com/kaine119/dcarn17-quiz
+year: 2017
 ---
 
 This was a quick thing I came up with for my CCA's booth for D'Carn 2017, Dunman High's open house. It wasn't super relevant to our CCA &mdash; I didn't think so at the time either &mdash; and for a open house booth, it wasn't very fun either. But that's besides the point.
