@@ -1,0 +1,21 @@
+---
+layout: default
+stylesheets:
+  - content.css
+  - project-details.css
+---
+
+<div class="project__title">
+  <h1 class="project__title__name">{{ page.title }}</h1>
+  <a href="{{ page.link }}" class="project-title__link">Link</a>
+</div>
+
+<img src="/assets/images/projects/{{ page.image }}"/>
+
+{{ content }}
+
+<div class="project__technologies">
+  <ul>
+    {% for i in page.technologies %}<li>{{ i }}</li>{% endfor %}
+  </ul>
+</div>

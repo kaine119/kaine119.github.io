@@ -1,0 +1,32 @@
+.project__title {
+  border-bottom: 1px dashed #4c566a;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+h1.project__title__name {
+  display: inline;
+  border: none;
+  margin: 0px;
+}
+
+a.project__title__link {
+  text-align: right;
+  font-size: 15pt;
+}
+
+.project__technologies li {
+  margin-left: 5px;
+  display: inline;
+}
+
+.project__technologies li::after {
+  content: '•';
+  margin-left: 5px;
+}
+
+.project__technologies li:last-child::after {
+  content: '';
+}
