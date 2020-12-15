@@ -4,7 +4,8 @@ header {
   -ms-align-items: center;
   align-items: center;
   font-family: 'Roboto Mono', monospace;
-  height: 10vh;
+  min-height: 10vh;
+  margin: 5px;
 }
 
 header > h1 {
