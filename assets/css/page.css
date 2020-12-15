@@ -24,3 +24,7 @@ body header, body main, body footer {
   margin-right: auto;
 }
 
+::selection {
+  color: #222;
+  background: #81a1c1;
+}
