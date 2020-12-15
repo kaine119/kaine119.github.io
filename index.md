@@ -5,22 +5,24 @@ nav_index: 0
 index_for: null
 ---
 
-![](/assets/images/profile.png)
+![](/assets/images/frontpage.png)
 
 # Hello!
 
-I'm Kai En, an aspiring software developer. I live in Singapore.
+I'm Kai En, an aspiring software developer. I live in Singapore, and 
+I'm planning to study computer science at SUTD.
 
 Right now there's nothing much on this website, as I'm busy with national service. 
 In time, I'm adding a portfolio of my previous [projects](/projects).
 
 ## Some things I can do
 
-* Python, Ruby, JavaScript, a bit of Java and Kotlin
+* Python, Ruby, JavaScript, C#, Java
 * Web development
 	- Frontend: HTML/CSS/JS, Vue.JS, AngularJS 1.x, Bulma.css, Bootstrap
 	- Backend: Flask, Sinatra, ExpressJS
 	- Static site generators: Jekyll (you're looking at one right now!)
 	- Cloud deployment: Heroku (and maybe AWS, MS Azure)
-
-
+* Native stuff
+  - recently been working on some .NET WPF projects
+  - previously worked on a few Android applications
