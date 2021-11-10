@@ -3,7 +3,7 @@
   {% assign sorted_pages = site.pages | sort: "nav_index" %}
   {% for node in sorted_pages %}
     
-    {% if node.name == "404.html" %}
+    {% if node.name == "404.html" or node.name == "style.css" %}
       {% continue %}
     {% elsif page.name == node.name or
 			 (page.collection != nil and page.collection == node.index_for) %}
