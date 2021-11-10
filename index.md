@@ -26,3 +26,6 @@ In time, I'm adding a portfolio of my previous [projects](/projects).
 * Native stuff
   - recently been working on some .NET WPF projects
   - previously worked on a few Android applications
+* Currently (planning to) work on
+  - 3D product modelling, PCB CAD work
+  - Microcontroller development with C
