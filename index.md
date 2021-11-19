@@ -9,11 +9,13 @@ index_for: null
 
 # Hello!
 
-I'm Kai En, an aspiring software developer. I live in Singapore, and 
+I'm Kai En, an aspiring software developer based in Singapore. 
 I'm planning to study computer science at SUTD.
 
 Right now there's nothing much on this website, as I'm busy with national service. 
 In time, I'm adding a portfolio of my previous [projects](/projects).
+
+Check out my [GitHub](https://github.com/kaine119) page!
 
 ## Some things I can do
 
@@ -24,7 +26,7 @@ In time, I'm adding a portfolio of my previous [projects](/projects).
 	- Static site generators: Jekyll (you're looking at one right now!)
 	- Cloud deployment: Heroku (and maybe AWS, MS Azure)
 * Native stuff
-  - recently been working on some .NET WPF projects
+  - have worked on a .NET WPF project
   - previously worked on a few Android applications
 * Currently (planning to) work on
   - 3D product modelling, PCB CAD work
