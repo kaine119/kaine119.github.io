@@ -9,7 +9,7 @@ index_for: null
 
 # Hello!
 
-I'm Kai En, an aspiring hadrware/software ~~gremlin~~ developer based in Singapore. 
+I'm Kai En, an aspiring hardware/software ~~gremlin~~ developer based in Singapore. 
 I'm studying Computer Engineering at SUTD.
 
 After three years of neglect, I'm progressively trying to flesh this site out more; check out my [blogs](/blogs) for updates on my current projects. 
