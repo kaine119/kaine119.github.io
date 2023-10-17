@@ -9,10 +9,10 @@ index_for: null
 
 # Hello!
 
-I'm Kai En, an aspiring software developer based in Singapore. 
-I'm planning to study computer science at SUTD.
+I'm Kai En, an aspiring hadrware/software ~~gremlin~~ developer based in Singapore. 
+I'm studying Computer Engineering at SUTD.
 
-Right now there's nothing much on this website, as I'm busy with national service. 
+After three years of neglect, I'm progressively trying to flesh this site out more; check out my [blogs](/blogs) for updates on my current projects. 
 In time, I'm adding a portfolio of my previous [projects](/projects).
 
 Check out my [GitHub](https://github.com/kaine119) page!
@@ -28,6 +28,8 @@ Check out my [GitHub](https://github.com/kaine119) page!
 * Native stuff
   - have worked on a .NET WPF project
   - previously worked on a few Android applications
-* Currently (planning to) work on
-  - 3D product modelling, PCB CAD work
-  - Microcontroller development with C
+* IRL stuff
+  - 3D modelling / CAD
+  - PCB ECAD
+  - Microcontroller development on STM32 / Arduino / ESP32 with C
+  - drones
