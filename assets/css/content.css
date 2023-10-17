@@ -5,8 +5,30 @@ main h1 {
   padding-bottom: 5px;
   margin-top: 0px;
 }
-main p {
-  font-size: 15pt;
+
+main {
+  font-size: 14pt;
+}
+
+main code {
+  background-color: #4c566a;
+  padding: 2px;
+  padding-left: 4px;
+  padding-right: 4px;
+  border-radius: 4px;
+  line-height: 25pt;
+}
+
+main pre.highlight {
+  background-color: #4c566a;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #333;
+}
+
+main pre.highlight code {
+  padding-left: 0;
+  padding-right: 0;
 }
 
 blockquote {
