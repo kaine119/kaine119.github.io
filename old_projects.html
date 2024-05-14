@@ -1,0 +1,33 @@
+---
+layout: default
+title: Old Projects
+nav_index: 1
+index_for: old_projects
+stylesheets:
+  - projects.css
+---
+
+<h1>Old Projects</h1>
+
+<p>These are some of the things I did over in my 6 years in Infocomm Club at Dunman High. Lots of the other stuff I made didn't really get anywhere, so there's this for now. Like the rest of my stuff on GitHub, these are quite old (earliest was 2016!), very neglected and probably not working. I've included links to the repo for some of them, so feel free to poke around, but I can't guarantee any of it works. Cheers ^^</p>
+
+<div class="projects">
+  {% assign sorted = site.old_projects | sort: 'year' | reverse %}
+  {% for project in sorted %}
+  <div class="project-container">
+    <div class="project">
+      <img src="/assets/images/projects/{{ project.image }}"/>
+      <div class="project__info">
+        <ul>
+          {% for i in project.technologies %}<li>{{ i }}</li>{% endfor %}
+        </ul>
+        <h2>{{ project.title }}</h2>
+        <a href="{{ project.url }}">Read more</a><br>
+        {% if project.link != nil %}
+          <a href="{{ project.link }}">Link</a>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>

@@ -15,14 +15,14 @@ ul {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: left;
 }
 
 .project-container {
   perspective: 900px;
-  margin-left: 2.5%;
+/*  margin-left: 2.5%;*/
   margin-right: 2.5%;
-  margin-top: 3em;
+/*  margin-top: 3em;*/
 }
 
 @media screen and (max-width: 800px) {
@@ -62,6 +62,7 @@ ul {
   position: absolute;
   height: 100%;
   width: 100%;
+  object-fit: cover;
 }
 
 .project .project__info {

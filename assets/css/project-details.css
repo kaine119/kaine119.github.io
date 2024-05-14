@@ -17,9 +17,49 @@ a.project__title__link {
   font-size: 15pt;
 }
 
+img.project__hero {
+  object-fit: cover;
+  max-width: 50vw;
+}
+
+.youtube-container {
+  width: 100%; 
+  display: flex; 
+  align-items: center
+}
+
+.youtube {
+  width: 50vw;
+  height: 28vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 768px) {
+
+  img.project__hero {
+    object-fit: cover;
+    max-width: 100%;
+  }
+
+  .youtube {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80vw;
+    height: 50vw;
+  }
+
+}
+
+
 .project__technologies li {
   margin-left: 5px;
   display: inline;
+}
+
+.project__technologies ul::before {
+  visibility: visible;
+  content: 'tags:';
 }
 
 .project__technologies li::after {

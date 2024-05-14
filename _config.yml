@@ -18,6 +18,8 @@ social_links:
 collections:
   projects:
     output: true
+  old_projects:
+    output: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.

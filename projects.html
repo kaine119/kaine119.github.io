@@ -1,33 +1,42 @@
 ---
 layout: default
-title: Projects
+title: Portfolio
 nav_index: 1
 index_for: projects
 stylesheets:
   - projects.css
 ---
 
-<h1>Projects</h1>
+<h1>Portfolio</h1>
 
-<p>These are some of the things I did over the past 6 years in Infocomm Club at Dunman High. Lots of the other stuff I made didn't really get anywhere, so there's this for now. Like the rest of my stuff on GitHub, these are quite old (earliest was 2016!), very neglected and probably not working. I've included links to the repo for some of them, so feel free to poke around, but I can't guarantee any of it works. Cheers ^^</p>
+<p>These are some of the projects I've worked on during my time in university and on various internships. Almost every mod in SUTD has a project tied to it; I've included the ones I'm most proud of here.</p>
 
-<div class="projects">
-  {% assign sorted = site.projects | sort: 'year' | reverse %}
-  {% for project in sorted %}
-  <div class="project-container">
-    <div class="project">
-      <img src="/assets/images/projects/{{ project.image }}"/>
-      <div class="project__info">
-        <ul>
-          {% for i in project.technologies %}<li>{{ i }}</li>{% endfor %}
-        </ul>
-        <h2>{{ project.title }}</h2>
-        <a href="{{ project.url }}">Read more</a><br>
-        {% if project.link != nil %}
-          <a href="{{ project.link }}">Link</a>
-        {% endif %}
+{% assign categories = "internships, projects, coursework" | split: ", " %}
+
+
+{% for category in categories %}
+{% assign projects = site.projects | sort: 'year' | reverse | where: "category", category %}
+  {% if projects.size == 0 %}
+    {% continue %}
+  {% endif %}
+  <h2>{{ category | capitalize }}</h2>
+  <div class="projects">
+    {% for project in projects %}
+    <div class="project-container">
+      <div class="project">
+        <img src="/assets/images/projects/{{ project.image }}"/>
+        <div class="project__info">
+          <ul>
+            {% for i in project.technologies %}<li>{{ i }}</li>{% endfor %}
+          </ul>
+          <h2>{{ project.title }}</h2>
+          <a href="{{ project.url }}">Read more</a><br>
+          {% if project.link != nil %}
+            <a href="{{ project.link }}">Link</a>
+          {% endif %}
+        </div>
       </div>
     </div>
+    {% endfor %}
   </div>
-  {% endfor %}
-</div>
+{% endfor %}
