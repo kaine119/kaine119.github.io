@@ -17,20 +17,13 @@ a.project__title__link {
   font-size: 15pt;
 }
 
-img.project__hero {
-  object-fit: cover;
-  max-width: 50vw;
-}
-
 .youtube-container {
-  width: 100%; 
   display: flex; 
   align-items: center
 }
 
 .youtube {
-  width: 50vw;
-  height: 28vw;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -49,24 +42,4 @@ img.project__hero {
     height: 50vw;
   }
 
-}
-
-
-.project__technologies li {
-  margin-left: 5px;
-  display: inline;
-}
-
-.project__technologies ul::before {
-  visibility: visible;
-  content: 'tags:';
-}
-
-.project__technologies li::after {
-  content: '•';
-  margin-left: 5px;
-}
-
-.project__technologies li:last-child::after {
-  content: '';
 }

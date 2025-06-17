@@ -12,12 +12,13 @@ index_for: null
 I'm Kai En, an aspiring hardware/software ~~gremlin~~ developer based in Singapore. 
 I'm studying Computer Engineering at SUTD.
 
-After three years of neglect, I'm progressively trying to flesh this site out more; check out my [blogs](/blogs) for updates on my current projects. 
-In time, I'm adding a portfolio of my previous [projects](/projects).
+I have a more polished portfolio page [here](https://muikaien.com).
+
+After ~~three~~ five(?) years of neglect, I've given up maintaining this site for outward appearances. This domain is now home to my other random stuff. 
 
 Check out my [GitHub](https://github.com/kaine119) page!
 
-## Some things I can do
+## Some things I do
 
 * Python, Ruby, JavaScript, C#, Java
 * Web development
